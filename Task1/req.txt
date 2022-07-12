@@ -1,0 +1,5 @@
+1. Login page which accepts a phone number
+2. Phone number validations
+3. Login code UI
+4. Matching the login code string to "1234"
+5. Display successful if passcode is correct
