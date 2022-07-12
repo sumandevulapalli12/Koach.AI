@@ -1,4 +1,4 @@
 const otpNav = () => {
     console.log('otpNav');
-    //window.location = "otp.html";
+    window.location.href = "otp.html";
 }

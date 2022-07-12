@@ -25,12 +25,12 @@ $('.digit-group').find('input').each(function () {
 
 
 const otp = () => {
-    const digit_1 = $('#digit-1');
-    const digit_2 = $('#digit-2');
-    const digit_3 = $('#digit-3');
-    const digit_4 = $('#digit-4');
+    const digit_1 = document.getElementById('digit-1').value;
+    const digit_2 = document.getElementById('digit-2').value;
+    const digit_3 = document.getElementById('digit-3').value;
+    const digit_4 = document.getElementById('digit-4').value;
     console.log(digit_1);
-    if (digit_1 == '1' && digit_2 == '2' && digit_3 == '3' && digit_4 == '4') {
+    if (digit_1 == 1 && digit_2 == 2 && digit_3 == 3 && digit_4 == 4) {
         alert('OTP is correct login success');
     }
 }
